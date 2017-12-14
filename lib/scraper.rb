@@ -20,7 +20,7 @@ class Scraper
     courses.each do |course|
       e = Course.new
       e.title = course.css("h2").text
-      e.schedule = course.first.css(".date").text
+      e.schedule = course.css(".date").text
       e.description = course.first.css("p").text
     end
   end
