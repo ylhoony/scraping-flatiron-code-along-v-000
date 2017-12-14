@@ -1,4 +1,6 @@
-
+class Course
+  
+end
 
 
 
