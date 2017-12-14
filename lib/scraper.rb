@@ -21,7 +21,7 @@ class Scraper
       e = Course.new
       e.title = course.css("h2").text
       e.schedule = course.css(".date").text
-      e.description = course.first.css("p").text
+      e.description = course.css("p").text
     end
   end
 
