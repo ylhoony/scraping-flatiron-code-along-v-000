@@ -8,6 +8,6 @@ class Course
   end
 
   def all
-    
+    @@all
   end
 end
