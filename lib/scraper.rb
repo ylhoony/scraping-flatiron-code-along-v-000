@@ -11,7 +11,7 @@ class Scraper
 
   def get_courses
     doc = self.get_page
-    doc.css("h2")
+    doc.css(".posts-holder article")
   end
 
   def make_courses
